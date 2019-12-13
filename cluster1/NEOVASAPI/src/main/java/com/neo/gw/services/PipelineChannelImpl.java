@@ -6,7 +6,6 @@ import com.neo.gw.handler.BasicChannelHandler;
 import com.neo.gw.handler.ChannelHandler;
 import com.neo.gw.model.Tps;
 import com.neo.gw.util.Constant;
-import com.tangosol.net.CacheFactory;
 import com.tangosol.net.NamedCache;
 import io.github.bucket4j.Bandwidth;
 import io.github.bucket4j.Bucket;

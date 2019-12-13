@@ -16,18 +16,18 @@
             <well-known-addresses>
                 <socket-address id="1">
                     <address>10.252.10.35</address>
-                    <port>8088</port>
+                    <port>8089</port>
                 </socket-address>
 
                 <socket-address id="2">
-                    <address>10.252.10.35</address>
+                    <address>10.252.10.138</address>
                     <port>8089</port>
                 </socket-address>
             </well-known-addresses>
 
             <machine-id>1</machine-id>
             <address>10.252.10.35</address>
-            <port>8088</port>
+            <port>8089</port>
             <port-auto-adjust>true</port-auto-adjust>
 
         </unicast-listener>

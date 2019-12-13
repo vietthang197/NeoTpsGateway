@@ -26,6 +26,7 @@ import java.util.concurrent.ConcurrentMap;
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
 
+  // cache dung chung giua cac cluster
   @Bean(name = "bucket4jCache")
   @Scope(value = ConfigurableBeanFactory.SCOPE_SINGLETON)
   public NamedCache cache() {
