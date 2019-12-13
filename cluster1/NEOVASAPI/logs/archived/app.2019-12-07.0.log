@@ -1,0 +1,55 @@
+2019-12-07 09:18:55,964 INFO com.neo.gw.NeovasapiApplication [main] Starting NeovasapiApplication on DESKTOP-OL2KA0Q with PID 18064 (D:\IdeaProjects\NEOVASAPI\target\classes started by asus in D:\IdeaProjects\NEOVASAPI)
+2019-12-07 09:18:55,973 DEBUG com.neo.gw.NeovasapiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-07 09:18:55,974 INFO com.neo.gw.NeovasapiApplication [main] No active profile set, falling back to default profiles: default
+2019-12-07 09:18:57,110 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'bucket4j.filters[0].metrics.tags[0].types' to java.util.List<com.giffing.bucket4j.spring.boot.starter.context.metrics.MetricType>:
+
+    Reason: failed to convert java.lang.String to com.giffing.bucket4j.spring.boot.starter.context.metrics.MetricType
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    CONSUMED_COUNTER
+    REJECTED_COUNTER
+
+2019-12-07 09:20:12,930 INFO com.neo.gw.NeovasapiApplication [main] Starting NeovasapiApplication on DESKTOP-OL2KA0Q with PID 12572 (D:\IdeaProjects\NEOVASAPI\target\classes started by asus in D:\IdeaProjects\NEOVASAPI)
+2019-12-07 09:20:12,934 DEBUG com.neo.gw.NeovasapiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-07 09:20:12,935 INFO com.neo.gw.NeovasapiApplication [main] No active profile set, falling back to default profiles: default
+2019-12-07 09:20:15,041 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2019-12-07 09:20:26,755 INFO com.neo.gw.NeovasapiApplication [main] Starting NeovasapiApplication on DESKTOP-OL2KA0Q with PID 2420 (D:\IdeaProjects\NEOVASAPI\target\classes started by asus in D:\IdeaProjects\NEOVASAPI)
+2019-12-07 09:20:26,759 DEBUG com.neo.gw.NeovasapiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-07 09:20:26,761 INFO com.neo.gw.NeovasapiApplication [main] No active profile set, falling back to default profiles: default
+2019-12-07 09:20:28,649 INFO com.neo.gw.NeovasapiApplication [main] Started NeovasapiApplication in 2.238 seconds (JVM running for 3.209)
+2019-12-07 09:21:51,207 INFO com.neo.gw.NeovasapiApplication [main] Starting NeovasapiApplication on DESKTOP-OL2KA0Q with PID 15800 (D:\IdeaProjects\NEOVASAPI\target\classes started by asus in D:\IdeaProjects\NEOVASAPI)
+2019-12-07 09:21:51,211 DEBUG com.neo.gw.NeovasapiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-07 09:21:51,212 INFO com.neo.gw.NeovasapiApplication [main] No active profile set, falling back to default profiles: default
+2019-12-07 09:21:53,006 INFO com.neo.gw.NeovasapiApplication [main] Started NeovasapiApplication in 2.141 seconds (JVM running for 3.075)
+2019-12-07 09:27:36,322 INFO com.neo.gw.NeovasapiApplication [main] Starting NeovasapiApplication on DESKTOP-OL2KA0Q with PID 2896 (D:\IdeaProjects\NEOVASAPI\target\classes started by asus in D:\IdeaProjects\NEOVASAPI)
+2019-12-07 09:27:36,325 DEBUG com.neo.gw.NeovasapiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-07 09:27:36,326 INFO com.neo.gw.NeovasapiApplication [main] No active profile set, falling back to default profiles: default
+2019-12-07 09:27:38,098 INFO com.neo.gw.NeovasapiApplication [main] Started NeovasapiApplication in 2.153 seconds (JVM running for 3.154)
+2019-12-07 09:28:03,235 INFO com.neo.gw.NeovasapiApplication [main] Starting NeovasapiApplication on DESKTOP-OL2KA0Q with PID 8328 (D:\IdeaProjects\NEOVASAPI\target\classes started by asus in D:\IdeaProjects\NEOVASAPI)
+2019-12-07 09:28:03,238 DEBUG com.neo.gw.NeovasapiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-07 09:28:03,239 INFO com.neo.gw.NeovasapiApplication [main] No active profile set, falling back to default profiles: default
+2019-12-07 09:28:05,264 INFO com.neo.gw.NeovasapiApplication [main] Started NeovasapiApplication in 2.364 seconds (JVM running for 3.275)

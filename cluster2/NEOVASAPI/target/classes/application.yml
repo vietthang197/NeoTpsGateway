@@ -1,0 +1,8 @@
+spring:
+  cache:
+    jcache:
+      config: classpath:ehcache.xml
+bucket4j:
+  enabled: true
+server:
+  port: 8081

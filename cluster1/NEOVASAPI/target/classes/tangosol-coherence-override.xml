@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+
+<coherence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns="http://xmlns.oracle.com/coherence/coherence-operational-config"
+           xsi:schemaLocation="http://xmlns.oracle.com/coherence/coherence-operational-config coherence-operational-config.xsd">
+
+    <cluster-config>
+
+        <member-identity>
+            <cluster-name>NEOVASAPI_NODE_1</cluster-name>
+            <role-name>1</role-name>
+        </member-identity>
+
+        <unicast-listener>
+            
+            <well-known-addresses>
+                <socket-address id="1">
+                    <address>10.252.10.35</address>
+                    <port>8088</port>
+                </socket-address>
+
+                <socket-address id="2">
+                    <address>10.252.10.35</address>
+                    <port>8089</port>
+                </socket-address>
+            </well-known-addresses>
+
+            <machine-id>1</machine-id>
+            <address>10.252.10.35</address>
+            <port>8088</port>
+            <port-auto-adjust>true</port-auto-adjust>
+
+        </unicast-listener>
+
+    </cluster-config>
+
+    <configurable-cache-factory-config>
+        <init-params>
+            <init-param>
+                <param-type>java.lang.String</param-type>
+                <param-value system-property="tangosol.coherence.cacheconfig">
+                    coherence/neovasapi-coherence-cache-config.xml</param-value>
+            </init-param>
+        </init-params>
+    </configurable-cache-factory-config>
+
+</coherence>
